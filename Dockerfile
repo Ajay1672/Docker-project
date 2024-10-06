@@ -6,7 +6,7 @@ COPY requirement.txt /app
 
 COPY app.py /app
 
-RUN Pip3 install -r requirement.txt
+RUN pip3 install -r requirement.txt
 
 EXPOSE 8000
 
